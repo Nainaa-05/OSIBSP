@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color: rgb(7, 7, 31);}
+a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    padding: 30px 10px 0px 10px;
+
+}
+
+nav {
+   
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+
+nav img {
+    padding-bottom: 5px;
+    height: 90px;
+    width: 200px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;}
+
+.about{
+   
+height: 250px;
+width: 800px;
+margin: 10% 5% 0px 5% ;
+color: white;
+text-align: center;
+
+}
+
+
+.about button {
+    margin: 20px 10% 5% 15%;
+padding: 10px;
+height: 50px;
+width: 165px;
+background-color: rgb(236, 175, 252);
+/* color: white; */
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+.skils{
+   text-align: center;
+    padding: 20px;
+    margin: 6% 5% 0px 0px ;
+border: 2px solid white;
+border-radius: 20px;
+height: 320px;
+width: 200px;
+background-color: azure;
+
+
+
+}
+.skils h2{
+margin: 10px;
+text-align: center;
+
+}
+.skils button{
+background-color: rgb(15, 10, 57);
+margin: 10px;
+color: white;
+border: 2px solid rgb(6, 4, 29);
+}
+
+
+.intro{
+margin: 20px 20px 10px 6%;
+height: 300px;
+width: 800px;
+}
+.intro 
+    p {
+        margin: 20px 20px 10px 6%;
+        font-size: 1.2rem;
+        color: rgb(206, 194, 194);
+        }
+ h1{
+    margin: 10px 10px 0px 6%;
+ color: white;
+ font-size: 2.5rem;
+ font-weight: bolder;
+
+
+}
+/* .nav2 {
+    margin: 5px 5% 20px 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(50, 47, 47);
+    border: 2px solid rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+.nav2 a {
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 50px;
+} */
+
+/* .box2{
+display: flex;
+justify-content: space-evenly;} */
+
+.work p {
+   
+    margin: 20px 20px 10px 10%;
+    font-size: 1.2rem;
+    color: rgb(206, 194, 194);
+    }
+
+.work h1
+{
+    margin: 10px 10px 0px 10%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+.work img {
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 3px 15px 3%;
+    
+
+    /* position: relative; */
+}
+
+.education
+{
+
+    color: white;
+    height: 700px;
+    width: 600px;
+    margin: 20px 5% 10% 25%;
+    background-color: rgb(13, 13, 16);
+    border: 2px solid rgb(172, 173, 177);
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+.education:hover{
+
+
+
+color: peru;}
+ .education p
+ {
+margin: 10px;
+font-size: 1rem;
+color: rgb(206, 194, 194);
+}
+
+.h1{
+text-align: center;
+color: white;
+}
+
+.b1,.b2{
+height: 250px;
+width: 500px;
+margin: 20px;
+padding: 20px;
+background-color: rgb(14, 14, 41);
+color: white;
+border-bottom: 2px solid white;
+border-radius: 10px;
+}
+
+
+.degree{
+    font-size: 1rem;
+    color: rgb(206, 194, 194);
+}
+
+
+
+
+
+.contact {
+
+
+    height: 650px;
+    width: 600px;
+    margin: 20px 5% 20px 35%;
+    background-color: rgb(6, 6, 22);
+    border: 2px solid rgb(172, 173, 177);
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+
+label {
+    margin: 30px;
+    color: rgb(224, 224, 224);
+}
+
+input {
+    width: 450px;
+    height: 30px;
+    margin: 30px;
+    padding: 10px;
+    font-family: cursive;
+
+
+}
+
+textarea {
+    margin: 30px;
+    height: 100px;
+    width: 450px;
+    padding: 20px;
+    font-family: cursive;
+    color: rgb(224, 224, 224);
+
+}
+
+button {
+
+    height: 30px;
+    width: 100px;
+    padding: 10px 5px 25px 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin-left: 30%;
+    
+}
+
+button:hover{
+
+color: blue;
+/* background-color: rgb(8, 8, 43); */
+
+
+
+}
+
+footer i {
+margin: 10px;}
+
+
+
+footer{
+    padding: 20px;
+height: 300px;
+width: 1400px;
+color: white;
+display: flex;
+justify-content: space-evenly;
+/* background-color: rgb(0, 0, 0); */
+margin: 30px 20px 20px 30px;
+border: 1px solid rgb(213, 213, 213);
+border-bottom: 4px solid white;
+
+
+
+
+
+}
+.footer{
+    display: flex;
+justify-content: space-evenly;
+ /* margin: 20px 10px 0px 10px; */
+padding: 10px; 
+}
+
+footer .f1,.f2,.f3,.f4{
+
+margin: 20px;
+}
